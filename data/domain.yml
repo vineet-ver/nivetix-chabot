@@ -1,0 +1,47 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_price
+  - ask_services
+  - ask_contact
+  - ask_demo
+  - out_of_scope
+  - affirm_thanks
+
+responses:
+  utter_greet:
+    - text: "Hi! I'm the Nivetix AI Assistant. I can help you with our services, pricing, portfolio, or connect you with our strategy team. How can I help?"
+    - text: "Hello! Welcome to Nivetix. Are you looking to build software, run an AI automation, or inquire about our costs?"
+
+  utter_ask_price:
+    - text: "Our pricing is heavily customized based on scale, but generally:\n\n- Web Platforms: Starting ~$399\n- AI Chatbot Deployments: Starting ~$329\n- SaaS & Custom Next.js: Starting ~$899\n\nWould you like a precise quote for your specific needs?"
+    - text: "We deal in premium enterprise systems. A simple business site begins around ₹29,999 ($399), while large custom AI + SaaS platforms scale upwards of ₹69,999+ ($899+). Want to book a strategy call for an exact breakdown?"
+
+  utter_ask_services:
+    - text: "We are a full-stack digital agency! We primarily build:\n\n1. AI Chatbots & Workflows\n2. Next.js SaaS Platforms\n3. Enterprise Dashboards\n4. E-commerce Systems\n5. UI/UX & Graphic Design\n\nWhat are you looking to build?"
+    - text: "We engineer revenue-driven digital systems! This includes UI/UX mapping, Full-stack Web Development (Next.js/React), AI Business Automation (Bots/Internal Tools), and high-end brand graphics."
+
+  utter_ask_contact:
+    - text: "You can reach us directly via:\n- 📞 Phone / WhatsApp: +91 8586053408\n- 📧 Email: contact@nivetix.software\n\nOr click the 'Book Free Strategy Call' button on our site!"
+    - text: "Need to talk to a human? \nEmail: contact@nivetix.software \nCall/WhatsApp: +91-8586053408 (Mon-Fri, 9am-6pm IST). We reply lightning fast!"
+
+  utter_ask_demo:
+    - text: "We've got an amazing portfolio showing our real-world impact. You can view all our Case Studies right on the /portfolio page. We've built platforms for clinics, real estate, cyber sec, and more!"
+    - text: "Absolutely! We focus on delivering top 1% designs. Head over to our Portfolio section to see our past UI/UX, SaaS tools, and AI deployment case studies."
+
+  utter_out_of_scope:
+    - text: "I'm exclusively programmed to discuss Nivetix Agency's services, pricing, and project capabilities. For other topics, you'll need a different bot! Can I help you build some software instead?"
+
+  utter_affirm_thanks:
+    - text: "You're very welcome! Let me know if there's anything else I can help you with."
+    - text: "Happy to help! Have a great day."
+    - text: "Anytime! We're here whenever you need us."
+    - text: "You got it! Let me know if you have any other questions."
+
+actions:
+  - action_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,201 @@
+version: "3.1"
+
+nlu:
+- intent: ask_price
+  examples: |
+    - what is the price for a website
+    - how much does a website cost
+    - web bana cost
+    - site kitne ka
+    - price for website
+    - what is your minimum budget
+    - cost for an app
+    - how much money to make an app
+    - charges kya hai aapke
+    - fees kitni hogi ecommerce ki
+    - app ka kitna loge
+    - budget kitna chahiye
+    - sasta site ban jayega kya
+    - custom project pricing
+    - ecommerce cost
+    - kitna paisa lagega site ka
+    - price kitna hai
+    - tell me price of mobile app
+    - give me pricing details
+    - i want to know the cost
+    - cost estimate batao
+    - website development charges
+    - app banwana hai kitna kharcha aayega
+    - budget estimation
+    - pricing for saas
+    - what will it cost me
+    - kitna charge karte ho
+    - cost for branding
+    - cheapest plan
+    - minimum cost required
+    - price of ai chatbot
+    - chatbot kitne me banega
+    - how much for an ai assistant
+
+- intent: ask_services
+  examples: |
+    - what services do you provide
+    - u make app?
+    - kya service dete ho
+    - do you build ai chatbots
+    - can you make a website
+    - web dev karte ho kya
+    - what do you guys do
+    - app banate ho?
+    - do you do ui ux
+    - kya kya karte ho aap
+    - branding services hai kya
+    - what are your offerings
+    - please list your services
+    - tell me about your digital services
+    - do you build saas
+    - software banate ho tum
+    - tell me what you build
+    - what type of apps can you build
+    - services batao
+    - provide me list of services
+    - automation karte ho kya
+    - ai development available hai
+    - do you offer seo
+    - marketing karte ho
+    - can you design logo
+    - logo banwana hai
+    - full stack development available
+    - mobile app services
+    - do you create dashboards
+    - can you make web tools
+    - tech stack kya hai
+    - what software do you build
+    - i need an ecommerce site
+
+- intent: ask_contact
+  examples: |
+    - how to contact you
+    - give me your phone number
+    - phone no do
+    - contact details batao
+    - kaise baat karu aapse
+    - call karna hai
+    - email kya hai
+    - whatsapp no
+    - drop your phone number
+    - address do
+    - kahan pe office hai
+    - where are you located
+    - need to talk to someone
+    - i want to call you
+    - meeting fix karni hai
+    - book strategy call
+    - call me back
+    - phone number do bhai
+    - apna number de do
+    - is there a phone number i can call
+    - share contact support
+    - how can i reach your team
+    - email address bhejo
+    - support ka number
+    - how to book a meeting
+    - book call
+    - lets schedule a meeting
+    - zoom call set kare
+    - appointment kaise book karu
+    - can we speak on phone
+    - talk to local branch
+    - any whatsapp available
+    - i need your support team email
+
+- intent: ask_demo
+  examples: |
+    - show me a demo
+    - demo dikhao
+    - i want to see projects
+    - purane apps dikhao
+    - any previous work
+    - portfolio dikhao
+    - show me case studies
+    - any app demo available
+    - demo session book karna hai
+    - can you give me a software demo
+    - i want a live demo
+    - show past work
+    - example dekha do
+    - what have you built
+    - any proof of work
+    - previous clients case studies
+    - portfolio page
+    - show your designs
+    - ui dikhao
+    - can i see what you build
+    - is there a demo available
+    - where is your portfolio
+    - past work link
+    - live site example
+    - examples of your web development
+    - do you have a showcase
+    - link for portfolio
+    - i wanna see screenshots
+    - koi sample hai
+    - show samples of logo
+    - software sample
+    - let me see demo
+    - give access to demo bot
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - namaste
+    - koi hai
+    - anyone there
+    - help
+    - hey bot
+    - hey nivetix
+    - hii
+    - hello there
+    - good morning
+    - good evening
+    - hi sir
+    - heyo
+    - start
+
+- intent: out_of_scope
+  examples: |
+    - i want a free website
+    - make me a pizza
+    - what is the weather today
+    - who is the prime minister
+    - please lend me money
+    - udhar milega kya
+    - free me app banaoge
+    - write a poem
+    - solve this math equation
+    - download movie
+    - song play karo
+    - write python script
+    - hack a facebook account
+
+- intent: affirm_thanks
+  examples: |
+    - ok
+    - okay
+    - thanku
+    - thanks
+    - thank you
+    - thanx
+    - sure
+    - alright
+    - fine
+    - thx
+    - cool
+    - got it
+    - ok thanks
+    - thanks bye
+    - appreciate it
+    - sounds good
+    - great

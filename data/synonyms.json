@@ -1,0 +1,8 @@
+{
+  "website": ["site", "web", "page", "app", "application", "platform", "portal", "system"],
+  "price": ["cost", "charge", "fee", "paisa", "kitna", "bhao", "budget", "pricing", "charges", "kharcha"],
+  "cheap": ["low cost", "budget", "affordable", "sasta", "cheaply"],
+  "contact": ["call", "phone", "email", "address", "number", "whatsapp", "meet", "meeting", "baat"],
+  "demo": ["portfolio", "sample", "example", "past work", "case study", "dikhao", "purane"],
+  "services": ["offerings", "products", "karte", "development", "build", "saas", "make"]
+}
